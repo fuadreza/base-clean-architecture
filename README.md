@@ -12,6 +12,7 @@ Simple Clean Architecture Implementation based on Kotlin language for Android Mo
 - Lifecycle
 - Navigation Component
 - Glide
+- Shimmer Loading
 
 ## Screenshot
 <img src="clean-arch-kotlin.jpeg" />

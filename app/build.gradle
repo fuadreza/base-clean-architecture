@@ -131,6 +131,9 @@ dependencies {
     implementation "com.jakewharton.timber:timber:$rootProject.timberLibraryVersion"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
+    // Shimmer Loading
+    implementation "com.facebook.shimmer:shimmer:$rootProject.shimmerVersion"
+
 
     // Testing
     testImplementation 'junit:junit:4.+'

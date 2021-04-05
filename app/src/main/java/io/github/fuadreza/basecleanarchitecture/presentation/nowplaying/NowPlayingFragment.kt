@@ -1,5 +1,6 @@
 package io.github.fuadreza.basecleanarchitecture.presentation.nowplaying
 
+import android.view.View
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
@@ -28,19 +29,28 @@ class NowPlayingFragment: BaseFragment<FragmentNowPlayingBinding, NowPlayingView
         vm.nowPlaying.observe(this){
             when (it) {
                 is Results.Loading -> {
-                    Timber.tag("FETCH").d("LOADING")
+                    showLoading(true)
                 }
                 is Results.Success -> {
-//                    adapter.refreshNowPlaying(it.data)
+                    showLoading(false)
                     setupList(it.data)
                 }
                 is Results.Empty -> {
-
+                    showLoading(false)
                 }
                 is Results.Error -> {
-
+                    showLoading(false)
                 }
             }
+        }
+    }
+
+    private fun showLoading(state: Boolean) {
+        if(state){
+            binding.shimmerViewContainer.startShimmer()
+        }else {
+            binding.shimmerViewContainer.stopShimmer()
+            binding.shimmerViewContainer.visibility = View.GONE
         }
     }
 

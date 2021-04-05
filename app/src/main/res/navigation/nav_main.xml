@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragment_now_playing">
+
+    <fragment
+        android:name="io.github.fuadreza.basecleanarchitecture.presentation.nowplaying.NowPlayingFragment"
+        android:label="NowPlayingFragment"
+        android:id="@+id/fragment_now_playing"
+        tools:layout="@layout/fragment_now_playing"/>
+
+</navigation>

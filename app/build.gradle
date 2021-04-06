@@ -101,6 +101,10 @@ dependencies {
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:$rootProject.androidXHilt"
     kapt "androidx.hilt:hilt-compiler:$rootProject.androidXHilt"
 
+    // - - Room Persistence Library
+    implementation "androidx.room:room-runtime:$rootProject.roomVersion"
+    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
+
     //
     // 3rd-Party Libraries
     // --------------------------------------------------

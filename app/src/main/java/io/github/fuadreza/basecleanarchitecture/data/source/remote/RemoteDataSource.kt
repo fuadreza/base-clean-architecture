@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.data.source
+package io.github.fuadreza.basecleanarchitecture.data.source.remote
 
 import com.squareup.moshi.Moshi
 import io.github.fuadreza.basecleanarchitecture.data.vo.HttpResult

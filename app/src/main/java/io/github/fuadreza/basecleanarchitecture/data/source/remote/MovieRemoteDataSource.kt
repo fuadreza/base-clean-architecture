@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.data.source
+package io.github.fuadreza.basecleanarchitecture.data.source.remote
 
 import io.github.fuadreza.basecleanarchitecture.data.response.NowPlayingDto
 import io.github.fuadreza.basecleanarchitecture.data.service.MovieService

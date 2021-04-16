@@ -6,13 +6,17 @@ import io.github.fuadreza.basecleanarchitecture.data.source.MovieRemoteDataSourc
 import io.github.fuadreza.basecleanarchitecture.data.vo.Results
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 import io.github.fuadreza.basecleanarchitecture.domain.repository.MovieRepository
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
 
-class MovieRepositoryImpl @Inject constructor(
+class MovieRepositoryImpl @ExperimentalCoroutinesApi
+@Inject constructor(
     private val dispatcher: DispatcherProvider,
     private val remoteDataSource: MovieRemoteDataSource,
     private val movieMapper: MovieMapper
 ) : MovieRepository {
+
+    @ExperimentalCoroutinesApi
     override suspend fun getMovieNowPlaying(): Results<List<NowPlaying>> {
         val apiResult = remoteDataSource.getMovieNowPlaying(dispatcher.io)
         return when (apiResult) {

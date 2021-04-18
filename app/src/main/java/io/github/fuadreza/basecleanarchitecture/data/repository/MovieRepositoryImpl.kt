@@ -2,7 +2,7 @@ package io.github.fuadreza.basecleanarchitecture.data.repository
 
 import io.github.fuadreza.basecleanarchitecture.data.dispatcher.DispatcherProvider
 import io.github.fuadreza.basecleanarchitecture.data.mapper.MovieMapper
-import io.github.fuadreza.basecleanarchitecture.data.source.MovieRemoteDataSource
+import io.github.fuadreza.basecleanarchitecture.data.source.remote.MovieRemoteDataSource
 import io.github.fuadreza.basecleanarchitecture.data.vo.Results
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 import io.github.fuadreza.basecleanarchitecture.domain.repository.MovieRepository

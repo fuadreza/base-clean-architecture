@@ -1,7 +1,6 @@
 package io.github.fuadreza.basecleanarchitecture.di
 
 import android.content.Context
-import androidx.lifecycle.ViewModelProvider
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

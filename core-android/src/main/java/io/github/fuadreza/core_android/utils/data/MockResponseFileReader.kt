@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.utils.data
+package io.github.fuadreza.core_android.utils.data
 
 import java.io.InputStreamReader
 

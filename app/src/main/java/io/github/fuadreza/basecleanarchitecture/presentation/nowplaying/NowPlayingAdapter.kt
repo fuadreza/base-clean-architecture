@@ -2,7 +2,7 @@ package io.github.fuadreza.basecleanarchitecture.presentation.nowplaying
 
 import com.bumptech.glide.Glide
 import io.github.fuadreza.basecleanarchitecture.R
-import io.github.fuadreza.basecleanarchitecture.abstraction.BaseRecyclerViewAdapter
+import io.github.fuadreza.core_android.abstraction.BaseRecyclerViewAdapter
 import io.github.fuadreza.basecleanarchitecture.databinding.ListItemNowPlayingBinding
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 

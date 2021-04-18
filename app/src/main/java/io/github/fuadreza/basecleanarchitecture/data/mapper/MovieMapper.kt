@@ -1,6 +1,6 @@
 package io.github.fuadreza.basecleanarchitecture.data.mapper
 
-import io.github.fuadreza.basecleanarchitecture.abstraction.Mapper
+import io.github.fuadreza.core_android.abstraction.Mapper
 import io.github.fuadreza.basecleanarchitecture.data.response.NowPlayingDto
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.abstraction
+package io.github.fuadreza.core_android.abstraction
 
 import android.os.Bundle
 import android.view.View

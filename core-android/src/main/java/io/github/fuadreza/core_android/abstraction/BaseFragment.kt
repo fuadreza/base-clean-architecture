@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.abstraction
+package io.github.fuadreza.core_android.abstraction
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,8 +12,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
-import io.github.fuadreza.basecleanarchitecture.utils.data.autoCleared
-import javax.inject.Inject
 
 abstract class BaseFragment<B : ViewDataBinding, V : ViewModel> : Fragment(), IBaseView {
     private lateinit var mViewDataBinding: B

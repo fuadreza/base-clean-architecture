@@ -1,6 +1,5 @@
-package io.github.fuadreza.basecleanarchitecture.abstraction
+package io.github.fuadreza.core_android.abstraction
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,14 +23,15 @@ abstract class BaseRecyclerViewAdapter<T : Any, VB : ViewDataBinding>
 
     override fun getItemCount() = items.size
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = BaseViewHolder<VB>(
-        DataBindingUtil.inflate(
-            LayoutInflater.from(parent.context),
-            getLayout(),
-            parent,
-            false
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
+        BaseViewHolder<VB>(
+            DataBindingUtil.inflate(
+                LayoutInflater.from(parent.context),
+                getLayout(),
+                parent,
+                false
+            )
         )
-    )
 
     companion object {
         class BaseViewHolder<VB : ViewDataBinding>(val binding: VB) :

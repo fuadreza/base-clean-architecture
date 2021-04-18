@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.utils.data
+package io.github.fuadreza.core_android.utils.data
 
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.DefaultLifecycleObserver
@@ -44,4 +44,5 @@ class AutoClearedValue<T : Any>(val fragment: Fragment) : ReadWriteProperty<Frag
 /**
  * Creates an [AutoClearedValue] associated with this fragment.
  */
-fun <T : Any> Fragment.autoCleared() = AutoClearedValue<T>(this)
+fun <T : Any> Fragment.autoCleared() =
+    AutoClearedValue<T>(this)

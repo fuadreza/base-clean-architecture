@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.data.vo
+package io.github.fuadreza.core_android.data.vo
 
 enum class HttpResult {
     NO_CONNECTION,

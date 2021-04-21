@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.data.vo
+package io.github.fuadreza.core_android.data.vo
 
 sealed class Results<out T> {
     object Loading : Results<Nothing>()

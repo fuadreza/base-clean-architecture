@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.github.fuadreza.basecleanarchitecture.data.vo.Results
+import io.github.fuadreza.core_android.data.vo.Results
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 import io.github.fuadreza.basecleanarchitecture.domain.usecase.GetMovieNowPlayingUseCase
 import io.github.fuadreza.core_android.abstraction.UseCase

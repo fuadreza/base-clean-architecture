@@ -1,4 +1,4 @@
-package io.github.fuadreza.basecleanarchitecture.data.dispatcher
+package io.github.fuadreza.core_android.data.dispatcher
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

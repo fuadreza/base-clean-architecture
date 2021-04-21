@@ -1,8 +1,8 @@
-package io.github.fuadreza.basecleanarchitecture.data.source
+package io.github.fuadreza.core_android.data.source
 
 import com.squareup.moshi.Moshi
-import io.github.fuadreza.basecleanarchitecture.data.vo.HttpResult
-import io.github.fuadreza.basecleanarchitecture.data.vo.Results
+import io.github.fuadreza.core_android.data.vo.HttpResult
+import io.github.fuadreza.core_android.data.vo.Results
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException

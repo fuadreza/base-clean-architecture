@@ -4,8 +4,8 @@ import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
-import io.github.fuadreza.basecleanarchitecture.data.dispatcher.CoroutineDispatcherProvider
-import io.github.fuadreza.basecleanarchitecture.data.dispatcher.DispatcherProvider
+import io.github.fuadreza.core_android.data.dispatcher.CoroutineDispatcherProvider
+import io.github.fuadreza.core_android.data.dispatcher.DispatcherProvider
 
 @InstallIn(ApplicationComponent::class)
 @Module

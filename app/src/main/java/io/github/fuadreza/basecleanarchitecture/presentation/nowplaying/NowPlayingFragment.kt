@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
 import io.github.fuadreza.basecleanarchitecture.R
 import io.github.fuadreza.core_android.abstraction.BaseFragment
-import io.github.fuadreza.basecleanarchitecture.data.vo.Results
+import io.github.fuadreza.core_android.data.vo.Results
 import io.github.fuadreza.basecleanarchitecture.databinding.FragmentNowPlayingBinding
 import io.github.fuadreza.basecleanarchitecture.domain.entity.NowPlaying
 import timber.log.Timber
